@@ -2,6 +2,7 @@ import { useState } from "react";
 import "../../App.scss";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
 import logo from "../../assets/bald.png";
+import smile from "../../assets/smile.png";
 import Footer from "../../Components/footer"
 import Quiz from "../Quiz";
 function Home() {
@@ -69,7 +70,7 @@ function Home() {
             </div>
           </section>
           <section  className="img-container">
-            <img src={logo} alt="baldhead" />
+            <img src={smile} alt="smile" />
           </section>
         </div>
       </div>
